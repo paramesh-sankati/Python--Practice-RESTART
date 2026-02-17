@@ -5,6 +5,9 @@ str2='reena'
 
 print(set(str1).intersection(str2))
 
+#or using & 
+print(set(str1) & set(str2))
+
 #else using loop
 
 res=set()
