@@ -14,3 +14,15 @@ res.extend(lst.count(2)*[2])
 print(res)
 
 #using append
+res2=[]
+for i in lst:
+    if i==0:
+        res2.append(i)
+for i in lst:
+    if i==1:
+        res2.append(i)
+for i in lst:
+    if i==2:
+        res2.append(i)
+
+print(res2)

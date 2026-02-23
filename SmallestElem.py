@@ -7,3 +7,13 @@ for i in lst:
         small=i
 
 print(small)
+
+#Largest Number
+
+largest=float('-inf')
+
+for i in lst :
+    if i>largest:
+        largest=i
+
+print(largest)
