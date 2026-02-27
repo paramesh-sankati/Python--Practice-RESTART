@@ -1,3 +1,12 @@
-lst=[1,2,4,5]
-for j in range(1,len(lst)+1):
-    print(range(1,len(lst)+1)[j-1])
+lst=[1,5,8,15,8,25,9]
+temp=sorted(list(set(lst)))
+dici={}
+for i,v in enumerate(temp):
+    dici[v]=i+1
+print(dici)
+
+res=[]
+for i in lst:
+    res.append(dici[i])
+
+print(res)
